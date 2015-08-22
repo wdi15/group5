@@ -1,6 +1,8 @@
 body {
 	background-color: #99FFFF;
 }
-.jumbotron p {position:relative; bottom: 500px; color: purple; font-size: 16px; left: 20px;}
+.jumbotron p {position:relative; bottom: 500px; color: purple; font-size: 18px; left: 20px;}
 .jumbotron h1 {position:relative; bottom: 500px; color:#CC33FF;}
-.jumbotron img{ width:100%;}
+ img{float:left; width: 100%}
+ .container {padding: 0px; width: 100%;}
+ .jumbotron {margin: 10px 0px; width:100%;}
