@@ -9,6 +9,14 @@ body {
  .jumbotron {margin: 0px; width:100%; padding-bottom: 0px;}
  .navbar {margin:0px;}
 
+ a:hover {
+ 	text-decoration: none;
+ }
+
+ glyphicon {
+ 	height:5px;
+ 	width:5px;
+ }
 
  #section1 {padding-top:30px;height:30%;color: #fff; background-color: #1E88E5;}
  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
