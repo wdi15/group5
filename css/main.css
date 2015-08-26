@@ -2,13 +2,12 @@ body {
 	background-color: #FFFFFF;
 	position:relative;
 }
-.jumbotron p {position:relative; bottom: 600px; color: purple; font-size: 18px; left: 20px;}
-.jumbotron h1 {position:relative; bottom: 600px; color:#CC33FF;}
+
  img{float:left; width: 100%;}
  .container {padding: 0px; width: 100%;}
  .jumbotron {margin: 0px; width:100%; padding-bottom: 0px;}
  .navbar {margin:0px;}
-
+.image {width:60%;}
  a:hover {
  	text-decoration: none;
  }
@@ -21,5 +20,6 @@ body {
  .s1
 
  #section1 {padding-top:30px;height:30%;color: #fff; background-color: #1E88E5;}
- #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
- #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+ #section2 {padding-top:50px;height:800px;color: #fff; background-color: #673ab7;}
+ #section3 {padding-top:50px;height:800px;color: #fff; background-color: #558C89;}
+ #section3 span {color: #B71427; font-weight: bold; text-decoration: underline;}
