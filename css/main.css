@@ -3,11 +3,11 @@ body {
 	position:relative;
 }
 
- img{float:left; width: 100%;}
  .container {padding: 0px; width: 100%;}
  .jumbotron {margin: 0px; width:100%; padding-bottom: 0px;}
  .navbar {margin:0px;}
 .image {width:60%;}
+
  a:hover {
  	text-decoration: none;
  }
@@ -18,7 +18,9 @@ body {
 
  #section1 {padding-top:30px;height:30%; background-color: #ffffff;}
  #section2 {padding-top:50px;height:700px; background-color: #f6f6f6;}
- #section3 {padding-top:50px;height:700px; background-color: #ffffff;}
+ #section3 {padding-top:50px;height:900px; background-color: #ffffff;}
+ #section3 span {color: grey; font-weight: bold; text-decoration: none;}
+
 
  h1 {
  	font-color:black;
@@ -34,4 +36,30 @@ p {
 	font-family: helvetica;
 }
 
+h3 {
+	font-color: #707070;
+	font-style:italic;
+	position:relative;
+	margin-top: -5px;
+}
+
+.btn {
+	border-radius: 25px;
+  	border-color: AliceBlue;
+ 	color: white;
+  	background-color: LightBlue;
+  	padding: 20px;
+  	font-family: Arial;
+}
+
+.ed {
+	position:relative;
+	margin-top: 150px;
+	font-color:black;
+}
+
+.s1 {
+	position: relative;
+	margin-bottom: -1000px;
+}
 
