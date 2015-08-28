@@ -1,6 +1,5 @@
 Group members:
-Golsa
-Marlio
+Christine
 Erica
 Kitty
 Ploy
