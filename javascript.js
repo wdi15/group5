@@ -1,6 +1,14 @@
-$('a').click(function() {
-    var elementClicked = $(this).attr("href");
-    var destination = $(elementClicked).offset().top;
-    $("html:not(:animated),body:not(:animated)").animate({ scrollTop: destination-15}, 500 );
-    return false;
+$('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+        || location.hostname == this.hostname) {
+
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+           if (target.length) {
+             $('html,body').animate({
+                 scrollTop: target.offset().top
+            }, 1000);
+            return false;
+        }
+    }
 });
