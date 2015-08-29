@@ -18,7 +18,7 @@
 
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
 
   <div class="container">
 
@@ -35,10 +35,11 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
 
             </button>
 
-            <a class="navbar-brand" href="index.html"> EDUCATION </a>
+            <a class="navbar-brand" href="index.html"> Worldwide Education </a>
 
           </div>
 
@@ -46,9 +47,10 @@
 
             <ul class="nav navbar-nav">
 
-              <li class="active"><!-- not needed <a href="index.html"> --> <a href="#section1"> Top </a></li>
-              <li><!-- not needed <a href="about.html"> --> <a href="#section2"> About </a></li>
-              <li><!-- not needed <a href="support.html"> --> <a href="#section3"> Support </a></li>
+              <!-- uses nav-brand instead <li class="active">< <a href="index.html"> <a href="#section1"> Top </a></li> -->
+              <li> <!-- class="active"> not needed <a href="about.html"> --> <a href="#section2"> About </a></li>
+              <li><!-- not needed <a href="support.html"> --> <a href="#section3"> Reasons To Donate </a></li>
+              <li><!-- not needed <a href="support.html"> --> <a href="#section4"> Support </a></li>
 
             </ul>
 
@@ -70,11 +72,10 @@
       <div id="section1">
 
         <img src="img/banner.jpg">
-         <h1>WORLDWIDE EDUCATION</h1> 
-      </div>
+         <!-- <h1>WORLDWIDE EDUCATION</h1> -->
 
         <!-- "triangle" button at the bottom -->
-        <center><a href="#section2" <span class="glyphicon glyphicon-menu-down s1" aria-hidden="true"></a></span></center>
+        <center><a href="#section2" <span class="glyphicon glyphicon-menu-down g1" aria-hidden="true"></a></span></center>
         
       </div>
 
@@ -82,26 +83,45 @@
         <center>
 
 
-        <h1> ABOUT </h1>
-        <p> There are millions of kids around the world that don't have access to a proper education or a school. However, with your help, we can change that. </p>
-        <img class="image" src="http://1dollar1home.com/projects/p68/t_68.jpg">
-        <h3> Reasons To Get Involved </h3>
+          <h1> ABOUT </h1>
+          <P> There are millions of kids around the world that don't have access to a proper education or a school. However, with your help, we can change that. <P>
+
+
+          <!-- imege not reuseable? <img class="image" src="http://1dollar1home.com/projects/p68/t_68.jpg"> -->
+
+          <p><a href="#section2" <span class="glyphicon glyphicon-menu-down g3" aria-hidden="true"></span></a></p>
+        
+        </center>
+
+      </div>
+
+      <div id="section3" class="container-fluid">
+
+        <center>
+
+        <h1> REASONS TO GET INVOLVED </h1>
+        <h3> Here Are the Facts </h3>
+
+        <p>
           <ol>
             <li> Around 115 million primary school age children do not go to school. </li>
             <li> In developing nations, each additional year of schooling can improve a person's prospective earnings by an average of 10 percent. </li>
             <li> Public school is not free in most third-world countries. The students' families are expected to pay for the cost of books, school uniforms and teachers' salaries. </li>
             <li> In certain areas of Africa, the literacy rates for children 18 and under are less than 50 percent.</li>
             <li> Educated girls and women are more capable of giving birth to healthier children since education and awareness helps to reduce the spread of infectious diseases, such as HIV and AIDS, which can be passed from mother to child during childbirth. </li>
+          </ol>
+        </p>  
+       
 
         <!-- "triangle" button at the bottom -->
-        <p><a href="#section3" <span class="glyphicon glyphicon-menu-down ed" aria-hidden="true"></span></a></p>
-
+        <p><a href="#section3" <span class="glyphicon glyphicon-menu-down g3" aria-hidden="true"></span></a></p>
         </center>
         
       </div>
 
-      <div id="section3" class="container-fluid ">
+      <div id="section4" class="container-fluid ">
         <center> 
+        
         <div class="row"> 
 
         <h1> SUPPORT </h1>
@@ -143,6 +163,34 @@
       
 
       </div>
+
+  <script>
+
+    // Add scrollspy to <body>
+$(document).ready(function(){
+$('body').scrollspy({target: ".navbar", offset: 50}); 
+
+// Add smooth scrolling to all links inside a navbar
+$("#navbar a").on('click', function(event){
+
+  // Prevent default anchor click behavior
+  event.preventDefault();
+
+  // Store hash (#)
+  var hash = this.hash;
+
+  // Using jQuery's animate() method to add smooth page scroll
+  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area (the speed of the animation)
+  $('html, body').animate({
+  scrollTop: $(hash).offset().top
+  }, 800, function(){
+
+  // Add hash (#) to URL when done scrolling (default click behavior)
+  window.location.hash = hash;
+  });
+});
+});
+  </script>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
