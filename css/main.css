@@ -17,7 +17,7 @@ body {
 
  #section1 {padding-top:30px;height:30%; background-color: #ffffff;}
  #section2 {padding-top:50px;height:900px; background-color: #f6f6f6;}
- #section3 {padding-top:50px;height:1400px; background-color: #F0FFFF;}
+ #section3 {padding-top:50px;height:1550px; background-color: #F0FFFF;}
  #section3 span {color: grey; font-weight: bold; text-decoration: none;}
 
 #section1 h1 {position: relative; bottom: 600px; left: 100px; font-size: 90px;}
@@ -42,7 +42,7 @@ h3 {
 	position:relative;
 	margin-top: -5px;
 }
-
+.row .img {margin-top: 20px;}
 .btn {
 	border-radius: 25px;
   	border-color: AliceBlue;
