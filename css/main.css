@@ -88,9 +88,10 @@ ol li {
 	border-radius: 20px; 
 	padding-bottom: 20px;
 	margin: 20px; 
-	width: 40%; 
-	background-color: white; }
+	
+	background-color: #d8e6ad; }
 
 .column img {
 	width: inherit; 
 	margin:10px;}
+.column h2 {background-color:#e6add8;}
