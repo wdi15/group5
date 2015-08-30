@@ -105,10 +105,11 @@ ol li {
 
 
 
-
 .column h2 {background-color:#f2d4db; 
 	border-top-left-radius: 20px;
 	margin-top: 0px;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
 	border-top-right-radius: 20px;
 	height:100%; }
 
