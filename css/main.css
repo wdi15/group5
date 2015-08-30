@@ -12,9 +12,9 @@ img{ height:30%;}
  	font-size: 25px;
  }
 
-#about {padding-top:50px;height: 100%; background-color: #f6f6f6;}
+#about {padding-top:50px;height: 100%; background-color: #f2d4db;}
 #reasons {padding-top:50px;height:100%; background-color: #ffffff;}
-#support {padding-top:50px; height: 1950px; background-color: LightBlue;}
+#support {padding-top:50px; height: 100%; background-color: LightBlue;}
 #support span {color: grey; font-weight: bold; text-decoration: none;}
 
 #section1 h1 {position: relative; top: -600px; left: 100px; font-size: 90px;}
