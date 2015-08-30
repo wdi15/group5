@@ -90,9 +90,10 @@ ol li {
 .column {display: inline-block; 
 	border-radius: 20px; 
 	padding-bottom: 20px;
-	margin: 20px; 
 	background-color: #d8e6ad;
 	padding-left:0px;
+	margin: 10px;
+	width: 31% ;
 	padding-right: 0px;
 	padding-top: 0px; }
 
