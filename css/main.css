@@ -77,7 +77,6 @@ ol li {
 	border-top-style: solid;
 	height:40px;
 	background-color: white;
-	padding-top: 0px;
 	vertical-align:top;
 	padding:0px;
 	margin:0px;
@@ -88,10 +87,17 @@ ol li {
 	border-radius: 20px; 
 	padding-bottom: 20px;
 	margin: 20px; 
-	
-	background-color: #d8e6ad; }
+	background-color: #d8e6ad;
+	padding-left:0px;
+	padding-right: 0px;
+	padding-top: 0px; }
 
+.column p {padding-left: 15px; padding-right:15px;}
 .column img {
 	width: inherit; 
 	margin:10px;}
-.column h2 {background-color:#e6add8;}
+.column h2 {background-color:#e6add8; 
+	border-top-left-radius: 20px;
+	 margin-top: 0px;
+	  border-top-right-radius: 20px;
+	  padding: 20px}
