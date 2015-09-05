@@ -12,15 +12,24 @@ img{ height:30%;}
  	font-size: 50px;
  	color: Grey; } 
 
-#about {padding-top:50px;height: 100%; background-color: #f2d4db;}
-#why {padding-top:50px;height:100%; background-color: #ffffff;}
-#where {padding-top:50px;height:100%; background-color: #f2d4db;}
-#support {padding-top:50px; height: 100%; background-color: white;}
-#support span {color: grey; font-weight: bold; text-decoration: none;}
-#section1 h1 {position: relative; top: -100%; left: 8%; font-size: 90px; width:75%;} 
-#section1 img {width:100%;height: 30%;}
-#why p {padding-left: 100px; padding-right:100px;}
-
+#about {padding-top:50px;height: 100%; background-color: white;}
+#about h3 {margin-top: -15px; color:#707070;}
+#why {padding-top:50px;height:100%; background-color: #00B2EE; }
+#why h1, li, h3, .glyphicon {color:white;}
+#why li {padding-left: 80px; padding-right:80px;}
+#where {padding-top:50px;height:100%; background-color: white;}
+#support {padding-top:50px; height: 100%; background-color: #00B2EE;}
+#support span {color: black; font-weight: bold; text-decoration: none; text-transform: uppercase;}
+#section1 h1 {position: absolute; margin-top: 15%; left: 8%; font-size: 8vw; width:80%;} 
+#section1 img {width:100%;height: 40%;}
+#why p {padding-left: 100px; padding-right:100px}
+#where img {width:10;}
+#navbar li {font-family: "Open Sans"; font-color: #555; font-weight: bolder; font-size: 15px;text-transform: uppercase; }
+.navbar-brand {text-transform: uppercase; font-weight: bolder}
+#where p {color:black; padding-left: 8%; padding-right: 8%; font-weight: 500px;}
+#where .glyphicon {color:#242424;}
+#about .glyphicon {color:#242424;}
+#where img {}
 
  h1 {
  	font-color:black;
@@ -30,18 +39,17 @@ img{ height:30%;}
  }
 
 p {
-	font-color: #acacac; 
-	font-size:20px;
+	font-color: black; 
+	font-size:22px;
 	margin-top: 30px;
 	font-family: helvetica;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 10%;
+	padding-right: 10%;
 
 }
 
 h3 {
-	font-color: #707070;
-	font-style:italic;
+	color: #707070;
 	position:relative;
 	margin-top: -5px;
 	font-weight: 500;
@@ -50,7 +58,7 @@ h3 {
 }
 
 .btn {
-	border-radius: 25px;
+	border-radius: 10px;
   	border-color: AliceBlue;
  	color: white;
   	background-color: LightBlue;
@@ -60,13 +68,12 @@ h3 {
 
 
 ol li {
-	font-color: #acacac; 
-	font-size:20px;
+	font-size:22px;
 	margin-top: 30px;
 	font-family: helvetica;
 	list-style-position:inside;
-	padding-left: 60px;
-	padding-right: 60px;
+	padding-left: 80%;
+	padding-right: 60%;
 }
 
 .g1, .g2, .g3, .g4 {
@@ -74,46 +81,57 @@ ol li {
 }
 
 .footer {
-	border-top-color: grey;
-	border-top-width: 2px;
-	border-top-style: solid;
 	height:100%;
-	background-color: lightgrey;
+	background-color: #242424;
 	vertical-align:top;
 	padding:0px;
 	margin:0px;
 
 }
 
-.column {display: inline-block; 
-	border-radius: 20px; 
+.column {
+	display: inline-block; 
 	padding-bottom: 20px;
-	background-color: #d8e6ad;
-	padding-left:0px;
-	margin: 10px;
-	width: 31% ;
+	background-color: #e6e6e6;
+	margin-top: 75px;
 	padding-right: 0px;
-	padding-top: 0px; }
+	padding-top: 0px; 
+	margin-bottom: 50px;
+	border-color: white;
+	border-width: 3px;
+	border-style: solid;
+	}
 
-.column p {padding-left: 15px; padding-right:15px;}
 
-.column img {
-	width: 90%; 
-	margin:10px;
+.col-md-4, .col-sm-12, img {padding-left: 0px;}
+
+.opt {padding-right: 0px;}
+
+.column p {padding:2% 5% 5% 5%;}
+
+
+#support h1, h3 {
+	padding:5px;
+	color:white;
+	padding-left: 10%;
+	padding-right:10%;
 }
 
 
-
-.column h2 {background-color:#f2d4db; 
-	border-top-left-radius: 20px;
-	margin-top: 0px;
-	padding-bottom: 20px;
-	margin-bottom: 10px;
-	border-top-right-radius: 20px;
-	height:100%; }
+#support img {
+	width:100%;
+	margin: 0px;
+	padding: 0px;
+	padding-left:0px;
+}
 
 #quote {
 	font-color: #707070;
 	font-family: "Lato";
-	font-size: 30px;
+	font-size: 28px;
+	font-style: italic;
+	max-width: 85%;
 }
+
+
+
