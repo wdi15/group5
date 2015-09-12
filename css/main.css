@@ -10,7 +10,8 @@ img{ height:30%;}
 
 .glyphicon {
  	font-size: 50px;
- 	color: Grey; } 
+ 	color: gray; 
+ } 
 
 #about {padding-top:50px;height: 100%; background-color: white;}
 #about h3 {margin-top: -15px; color:#707070;}
@@ -29,7 +30,7 @@ img{ height:30%;}
 #where p {color:black; padding-left: 8%; padding-right: 8%; font-weight: 500px;}
 #where .glyphicon {color:#242424;}
 #about .glyphicon {color:#242424;}
-#where img {}
+
 
  h1 {
  	font-color:black;
@@ -76,7 +77,15 @@ ol li {
 	padding-right: 60%;
 }
 
-.g1, .g2, .g3, .g4 {
+
+
+#why li {
+	padding-left: 10%;
+	padding-right:10%;
+
+}
+
+.g1, .g2, .g3, {
 	bottom:5px;
 }
 
@@ -86,7 +95,7 @@ ol li {
 	vertical-align:top;
 	padding:0px;
 	margin:0px;
-
+	height: 100%;
 }
 
 .column {
@@ -98,14 +107,21 @@ ol li {
 	padding-top: 0px; 
 	margin-bottom: 50px;
 	border-color: white;
-	border-width: 3px;
+	border-width: 2px;
 	border-style: solid;
 	}
+
+.column p {
+	border-color: #e6e6e6
+}
 
 
 .col-md-4, .col-sm-12, img {padding-left: 0px;}
 
-.opt {padding-right: 0px;}
+.cod-md-4 {
+	padding-right: 0px;
+}
+
 
 .column p {padding:2% 5% 5% 5%;}
 
@@ -132,6 +148,4 @@ ol li {
 	font-style: italic;
 	max-width: 85%;
 }
-
-
 
